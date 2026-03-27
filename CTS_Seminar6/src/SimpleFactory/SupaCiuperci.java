@@ -1,0 +1,13 @@
+package SimpleFactory;
+
+public class SupaCiuperci extends Supa{
+
+    public SupaCiuperci(String denumire) {
+        super(denumire);
+    }
+
+    @Override
+    public void afiseazaDetalii() {
+        System.out.println("Supa ciuperci "+super.getDenumire());
+    }
+}
